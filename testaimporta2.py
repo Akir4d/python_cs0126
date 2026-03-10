@@ -1,6 +1,6 @@
 from matematica import quadrato
-import funzioni
+from funzioni import *
 
 q=quadrato(20)
 print(q)
-funzioni.saluta("Marco")
+saluta("Marco")
