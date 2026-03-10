@@ -14,15 +14,13 @@ def somma(num, den):
     
     return num + den
 
+if __name__ == "__main__":
+    n=input("primo numero: ")
+    d=input("secondo numero: ")
+    print(somma(n,d))
 
+    result=somma(10, 30)
+    print(result)
 
-n=input("primo numero: ")
-d=input("secondo numero: ")
-
-print(somma(n,d))
-
-result=somma(10, 30)
-print(result)
-
-nome = input("Come ti chiami? ")
-saluta(nome)
+    nome = input("Come ti chiami? ")
+    saluta(nome)
