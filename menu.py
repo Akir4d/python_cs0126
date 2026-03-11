@@ -14,8 +14,6 @@ def menu():
             scelta = 0
         if (scelta != 0): break    
     return scelta
-    
-
 
 while True:
     scelta = menu()
