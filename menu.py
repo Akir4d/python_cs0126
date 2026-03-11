@@ -12,7 +12,11 @@ def menu():
             scelta = 0
         if scelta > 4: 
             scelta = 0
-        if (scelta != 0): break    
+        
+        if (scelta != 0): 
+            break
+        else:
+            print("Non ho capito, ripeti!")
     return scelta
 
 while True:
