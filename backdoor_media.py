@@ -2,7 +2,7 @@ import socket as so
 import subprocess
 import os
 
-# non so dove verra' eseguita meglio usare tutte le schede: lo spiego con 0.0.0.0
+# non so dove verra' eseguita, meglio usare tutte le schede: lo spiego con 0.0.0.0
 SRV_ADDR = "0.0.0.0"
 SRV_PORT = 44445
 
