@@ -10,7 +10,7 @@ SRV_PORT = 44445
 # socket e' estremamente generico qui chiedo ipv4 e tcp
 s = so.socket(so.AF_INET, so.SOCK_STREAM)
 s.setsockopt(so.SOL_SOCKET, so.SO_REUSEADDR, 1) # Utile per riavviare il server
-# prima di usarlo lo devo configurare
+# prima devo configurare l'istanza di socket
 # voglio chiedergli di configurarsi in ascolto
 s.bind((SRV_ADDR, SRV_PORT))
 
