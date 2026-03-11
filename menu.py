@@ -15,5 +15,9 @@ def menu():
         if (scelta != 0): break    
     return scelta
     
-scelta = menu()
-print(scelta)
+
+
+while True:
+    scelta = menu()
+    if (scelta == 4): break
+    print(scelta)
