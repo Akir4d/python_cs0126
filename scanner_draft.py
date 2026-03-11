@@ -26,6 +26,6 @@ for port in range(lowport, higport+1):
     s.close()
 
 # print("porte chiuse: ", portechiuse)
-print("individuate",portechiuse.count(portechiuse), "porte chiuse")
+print(f"individuate {len(portechiuse)} porte chiuse")
 
 
