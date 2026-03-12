@@ -1,0 +1,28 @@
+{
+  "anomalies": [
+    {
+      "type": "brute_force",
+      "src_ip": "46.59.23.16",
+      "severity": "HIGH",
+      "action": "Block IP"
+    },
+    {
+      "type": "brute_force",
+      "src_ip": "235.120.211.87",
+      "severity": "HIGH",
+      "action": "Block IP"
+    },
+    {
+      "type": "brute_force",
+      "src_ip": "210.105.79.218",
+      "severity": "HIGH",
+      "action": "Block IP"
+    },
+    {
+      "type": "brute_force",
+      "src_ip": "71.210.236.35",
+      "severity": "HIGH",
+      "action": "Block IP"
+    }
+  ]
+}
