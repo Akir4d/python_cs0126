@@ -8,8 +8,13 @@ chiave = os.environ["GEMINI_API_KEY"]
 client = genai.Client(api_key=chiave)
 
 config = types.GenerateContentConfig(
-    temperature=0.1,
+    temperature=0.9,
     max_output_tokens=1024,
+    system_instruction="""
+    Sei un assistete amichevole per studenti di programmazione.
+    Rispondi in modo semplice e chiaro.
+    Usa esempi pratici quando possibile
+    """
 )
 
 
